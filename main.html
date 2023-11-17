@@ -40,7 +40,7 @@
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           if (age > 18) {
-            resolve(`Welcome ${document.getElementById('name').value}. You can Vote.`);
+            resolve(`Welcome, ${document.getElementById('name').value}. You can vote.`);
           } else {
             reject(`Oh sorry ${document.getElementById('name').value}. You aren't old enough.`);
           }
